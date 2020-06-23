@@ -1,0 +1,499 @@
+header{
+ background-image: url(books2.jpg); 
+ background-size: 100% auto; 
+ background-repeat:no-repeat; 
+ /*height: 320px;
+ width: 647px; */
+ height: 100%;
+ width: 100%;
+ position: relative;
+ display: block;
+}
+header{
+    margin: 0px;
+    
+}
+#exit{
+    z-index: 150;
+    
+}
+#menu{
+    z-index: 160;
+    background-color: darkturquoise;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+#nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    justify-content: space-evenly;
+    line-height: 150%;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+/*#home{
+    background-color:grey;
+    border-radius: 20px;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    color:white;
+}
+#about{
+    background-color:grey;
+    border-radius: 20px;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    color:white;
+}
+#contact{
+    background-color:grey;
+    border-radius: 20px;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    color:white;   
+}*/
+nav{
+    position: absolute;
+    top: 13px;
+    right: 0px;
+    width: 110px;
+    margin: 0px;
+    height: 100%;
+    font-size: 20px;
+    position: fixed;
+    
+    z-index: 100;
+    text-align: center;
+}
+nav ul{
+    background-color: black;
+    height: 100%;
+    
+}
+nav ul li a{
+    display: block;
+    width: 110px;
+}    
+/*nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 110px;
+    background: rgb(43, 49, 53);
+}*/
+
+nav ul li a:hover{
+    background: rgb(18, 161, 233);
+}
+
+.mid-cont{
+    background-color: rgb(33, 177, 243);
+    height: 485px;
+    border-radius: 10px;
+    position: relative;
+    top: -15%;
+
+}
+.mid-text {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 30%;
+    left: 3%;
+    font-family: sans-serif;
+     
+}
+.hide-mobile{
+    display: none;
+}
+/*.book-layer {
+     background-image: url(books2.2.png);
+     height: 100px;
+     width: 647px;
+}*/
+.book-layer {
+    background-image: url(books2.2.png);
+    background-size: contain ;
+    height: 100px;
+    width: 100%;
+}  
+.dilog{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,#4d0066,#800040,#4d0066);
+}
+.tor{
+    position: absolute;
+    top:80px;
+    left:45%;
+    font-style: italic;
+    font-family: Georgia;
+    color: azure;
+    font-size: medium;
+}
+.tt{
+    position: relative;
+    top:230;
+    left:0%;
+    font-style: italic;
+    font-family: Georgia;
+    color: azure;
+    font-size: x-large;
+}
+.two{
+   position: relative;
+    list-style-type: none;
+    margin-right: 10%;
+    padding: 0;
+    line-height: 200%;
+    width: 100%;
+    
+
+}
+.two li {
+    display: block;
+    width: 100%;
+    text-align: center ;
+}
+.physics{
+    position: relative;
+}
+.chemistry{
+    position: relative;
+}
+.math{
+    position: relative;
+}
+.title{
+   /* color: rgb(159, 95, 212);*/
+    position: relative;
+    margin: 0 px auto 0 px auto;
+    color: rgb(216, 50, 50);
+    font-family: 'Lucida Sans';
+    
+    text-align: center;
+}
+.title h1{
+    margin-bottom: 0px;
+}
+.underline1{
+    width: 200px;
+    height: 5px;
+    background-color:yellow;
+    position: relative;
+    top: 3%;
+    margin: 1px auto 1px auto;
+    border-radius: 10px;
+}
+.underline2{
+    width: 600px;
+    height: 5px;
+    background-color:yellow;
+    position: absolute;
+    left: 365px;
+    top: 15%;
+    border-radius: 10px;
+}
+.comment-title{
+    text-align: center;
+    font-size: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    width: 100%;
+    height:100px;
+    transform: skewY(0.5deg);
+}
+form{
+    width: 630px;
+    position: relative;
+    margin: auto;
+    background-color: moccasin;
+}
+.pot{
+    list-style-type: none;
+    display: block;
+    width: 630px;
+    transform: skewY(0.5deg)
+}
+input{
+    border-radius: 5px;
+}
+footer{
+    display: block;
+    height: 150px;
+    background-color: black;
+    transform: skewY(.5deg);
+    z-index: -2;
+    position: relative;
+}
+.comments{
+    background-color: rgb(166, 236, 139);
+    transform: skewY(-0.5deg);
+}
+fieldset{
+    border: rgb(166, 236, 139);
+}
+.foot{
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    transform: skewY(-0.5deg);
+    background-color: black;
+    z-index: 5;
+
+}
+.foot-text{
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0px auto 0px auto;
+    top: 30px;
+    line-height: 200%;
+}
+ 
+
+
+@media only screen and (min-width: 930px){
+   /*.top-pic{
+    background-image: url(books2.jpg); 
+    background-size: contain; 
+    background-repeat:no-repeat; 
+    height: 647px;
+    width: 1332px;
+     
+   }*/
+   header{
+       margin: 0px;
+       
+   }
+   #exit{
+       display: none;
+   }
+   #menu{
+       display: none;
+   }
+   #nav{
+       list-style-type: none;
+       margin: 10px;
+       display: flex;
+       justify-content: space-evenly;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   #home{
+       background-color:grey;
+       border-radius: 20px;
+       width: 105px;
+       height: 30px;
+       text-align: center;
+       color:white;
+   }
+   #about{
+       background-color:grey;
+       border-radius: 20px;
+       width: 105px;
+       height: 30px;
+       text-align: center;
+       color:white;
+   }
+   #contact{
+       background-color:grey;
+       border-radius: 20px;
+       width: 105px;
+       height: 30px;
+       text-align: center;
+       color:white;   
+   }
+   nav{
+       position: absolute;
+       top: 0px;
+       right: 15px;
+       width: 410px;
+       margin: 20px;
+       font-size: 20px;
+       background: none;
+       
+      
+   }
+   nav ul{
+    background: none;
+    height: 100%;
+}
+   nav ul a{
+    background: none;
+   }
+   nav ul a:hover{
+    background-color:grey;
+    border-radius: 20px;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    color:white; 
+   } 
+   .spce{
+       height:250px;
+   }   
+   .mid-cont{
+       background-color: rgb(33, 177, 243);
+       height: 300px;
+       border-radius: 10px;
+   
+   }
+   .mid-text {
+       display: block;
+       display: flex;
+       width: 80%;
+       left: 10%;
+       justify-content:space-between;
+       text-align: center;
+       color: white;
+       
+       font-size: 18px;
+       font-family: sans-serif;*/
+        
+   }
+   /*.book-layer {
+        background-image: url(books2.2.png);
+        background-size: contain ;
+        height: 100px;
+        width: 100%;
+   }*/
+   .dilog{
+       position: relative;
+       display: block;
+       width: 100%;
+       height: 400px;
+       text-align: center;
+       background-image: linear-gradient(to bottom right,#4d0066,#800040,#4d0066);
+   }
+   /*.tor{
+       position: absolute;
+       top:80px;
+       left:45%;
+       font-style: italic;
+       font-family: Georgia;
+       color: azure;
+       font-size: x-large;
+   }
+   .tt{
+       position: absolute;
+       top:230px;
+       left:525px;
+       font-style: italic;
+       font-family: Georgia;
+       color: azure;
+       font-size: x-large;
+   }*/
+    .two{
+      position: relative;
+      text-align: center;
+      /*left:270px;*/
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       display: flex;
+       width: 58%;
+       left: 23%;
+       justify-content: space-evenly;
+   
+   }
+   .physics{
+       position: relative;
+   }
+   .chemistry{
+       position: relative;
+   }
+   .math{
+       position: relative;
+   }
+   .title{
+       color: rgb(159, 95, 212);
+       color: rgb(216, 50, 50);
+       font-family: 'Lucida Sans';
+       margin-bottom: 0px;
+       text-align: center;
+   }
+   /*.underline1{
+       width: 600px;
+       height: 5px;
+       background-color:yellow;
+       position: absolute;
+       top: 13%;
+       left: 365px;
+       border-radius: 10px;
+   }*/
+   .underline1{
+    height: 5px;
+    width: 600px;
+   }    
+
+   .comment-title{
+       text-align: center;
+       font-size: 2em;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       display: block;
+       width: 100%;
+       height:50px;
+       transform: skewY(0.5deg);
+   }
+   form{
+       width: 800px;
+       position: relative;
+       margin: auto;
+       background-color: moccasin;
+   }
+   .pot{
+       list-style-type: none;
+       display: block;
+       transform: skewY(0.5deg)
+   }
+   input{
+       border-radius: 5px;
+   }
+   footer{
+       display: block;
+       height: 500px;
+       background-color: black;
+       transform: skewY(.5deg);
+       z-index: 1;
+       position: relative;
+   }
+   .comments{
+       background-color: rgb(166, 236, 139);
+       transform: skewY(-0.5deg);
+   }
+   fieldset{
+       border: rgb(166, 236, 139);
+   }
+   .foot{
+       position: absolute;
+       left: 0px;
+       bottom: -5px;
+       display: block;
+       width: 100%;
+       height: 15px;
+       transform: skewY(-0.5deg);
+       background-color: black;
+       z-index: 5;
+   
+   }
+
+}
